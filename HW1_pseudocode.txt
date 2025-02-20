@@ -1,0 +1,23 @@
+Main
+Initialize variables
+
+Prompt user for N, the number of prime numbers to print
+Get value from terminal and store in variable
+
+Loop while the program hasn't printed all N numbers (N>0)
+    initialize i as 2
+    if i is prime
+        print value of i
+        decrease value of N by 1
+    increase i by 1
+
+
+is_prime function
+Loop over all numbers  (x) less than the input (v)
+    if the v/x is a whole number 
+        then the value is not prime
+        print "0" to the terminal
+        Exit the loop
+
+If v/x was never a whole number
+    print "1" to the terminal
